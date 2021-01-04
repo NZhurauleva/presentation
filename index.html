@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/league.css" id="theme">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<img src="https://www.majidonline.com/assets/files/images/web/material_design/web-md-framework2.png"
+					alt="logo">
+			</section>
+			<section>Material Design is Google’s design language.</section>
+			<section>
+				To install and save in your package.json dependencies, run:
+				<pre><code data-trim data-noescape>
+						// with npm
+						npm install @material-ui/core
+						
+						// with yarn
+						yarn add @material-ui/core
+						  </code></pre>
+			</section>
+			<section>
+				Material-UI was designed with the Roboto font in mind.
+				<pre><code data-trim data-noescape><script type="text/template">
+					<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
+				</script></code></pre>
+			</section>
+			<section>
+				Install @material-ui/icons package:
+				<pre><code data-trim data-noescape>
+					// with npm
+					npm install @material-ui/icons
+
+					// with yarn
+					yarn add @material-ui/icons
+					  </code></pre>
+			</section>
+			<section>
+				Material-UI components work in isolation.
+			</section>
+			<section>
+				Quick start
+				<pre><code data-trim data-noescape><script type="text/template">
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Button from '@material-ui/core/Button';
+
+function App() {
+	return (
+		<button variant="contained" color="primary">
+		Hello World
+		</button>
+  );
+}
+ReactDOM.render(<App />, document.querySelector('#app'));
+					  </script></code></pre>
+			</section>
+			<section>
+				The Material-UI library is composed of React components for layout, forms, navigation, and miscellaneous
+				widgets.
+			</section>
+			<section>
+				<scrip type="text/template">
+					Buttons <br>
+					<img src="https://lh3.googleusercontent.com/WTxHKH2jzRSMpsFtwfL-FzlD2wpmFSclAEEx5x55hOpn4IaVcXuYg7DWk6ruqww8WCi-FOItzwz88LTMuTF_15zBTHxU22VCzvebDg=w1064-v0"
+						alt="logo" width="40%">
+			</section>
+			<section>
+				Text fields<br>
+				<img src="https://lh3.googleusercontent.com/FzKXH0mmW_btrkFxWJ-vo85kuzs1q-qjXbFXg0LWbMV7oW3kwd9xg9XllbEi4SjkLZR866LvdwE2UHux_YW5-T3239nWPxaSTXNkOQ=w1064-v0"
+					alt="logo" width="45%">
+			</section>
+			<section>
+				Banners<br>
+				<img src="https://lh3.googleusercontent.com/IrCKC5PYOylgAiHk_SYHVSfkbW1NMexGkKiDZlzlZWaUxCoEY2ys3O1lKa0gtRRuOPpty6Ajb5Pdzycylwn-aS5B8P1KcGNNEGP_qUg=w1064-v0"
+					alt="logo" width="45%">
+			</section>
+			<section>
+				Bottom navigation bars<br>
+				<img src="https://lh3.googleusercontent.com/14jax4TqtGJ1R7uteNETMHtrB4_83FOVLCsLW3VxWh17Mle2RiCPiUwPgN0hEXqkCr-281geh88fDMuEZyGVTyhZ_j8hO9RHElEa=w1064-v0"
+					alt="logo" width="55%">
+			</section>
+			<section>
+				Checkboxes<br>
+				<img src="https://lh3.googleusercontent.com/StiJc-VlSUp-3StzmSCLldle9vTpkuznqx77I2YDb0Gp4XGNjtxG1-Z6o00Ur7iwtfg-p0zV_vZHIgW0qrUlUPll1rr5RcmWnEED6A=w1064-v0"
+					alt="logo" width="50%">
+			</section>
+			<section>
+				Chips<br>
+				<img src="https://lh3.googleusercontent.com/nIlSfsCutvqK4ZGO91rq9ktUX90a6t7zQhf7KFH-3RXL7gMcUDrLVFafgDr82PgnbiBuwLn8t1vvVcL66wHp9p5VYocPI-7fYb9w=w1064-v0"
+					alt="logo" width="50%">
+			</section>
+			<section>
+				Sliders<br>
+				<img src="https://lh3.googleusercontent.com/HyBNA4jg-7mZ_wvptdv2BFs2COwO21hYtonNR3SzbfeO6pFyvfiqxHXKpbuBq6tkI2TKeqWgtE4_Cps3P1PVDcX7HAQJXze6KDEHlA=w1064-v0"
+					alt="logo" width="30%">
+			</section>
+			<section>
+				Tooltips<br>
+				<img src="https://lh3.googleusercontent.com/pg128R99cX9ERCZG-OKNQi9eY_gxFWqvqtllvrTXmzuGBHNLCBziTjE2aC4lc9pTBSCCrAxNg4UOCd5Jomr76BknRRaIKd2SG1PBKQ=w1064-v0"
+					alt="logo" width="45%">
+			</section>
+			<section>
+				Navigation drawers<br>
+				<img src="https://lh3.googleusercontent.com/ZIxXChYsntMBIXQZOxppDhCEk5sDPc3JTbhGX3q93Bj61IfSEg5eGh9GyDvDKKbz_et1BW39XBoQ_gz5pDCyQhRJQ4mj9JmCAmpio5w=w1064-v0"
+					alt="logo" width="35%">
+			</section>
+			<section>
+				Material-UI is a great way to add a polished look and feel to the controls of your React site with
+				little effort.
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			width: 1200,
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
